@@ -10,48 +10,12 @@ export default function ExpertiseSection(): React.JSX.Element {
     <div id="expertise" data-section="expertise">
         <SectionErrorBoundary name="expertise">
               <FeaturesImageBento
-          tag="Expertise"
-          title="Solutions for every sector"
-          description="We specialize in high-conversion web solutions for diverse industries."
-          items={[
-            {
-              title: "Restaurants",
-              description: "Menus and booking systems that increase tables turnover.",
-              imageSrc: "http://img.b2bpic.net/free-photo/wine-glass_1203-2992.jpg",
-            },
-            {
-              title: "Clinics",
-              description: "Patient portals and secure booking for healthcare providers.",
-              imageSrc: "http://img.b2bpic.net/free-photo/living-room-with-white-couch-coffee-table_188544-18668.jpg",
-            },
-            {
-              title: "Gyms",
-              description: "Membership platforms and scheduling for fitness centers.",
-              imageSrc: "http://img.b2bpic.net/free-photo/still-life-gym-equipment_23-2148197730.jpg",
-            },
-            {
-              title: "Retail",
-              description: "E-commerce solutions for modern commerce.",
-              imageSrc: "http://img.b2bpic.net/free-photo/turquoise-wooden-table-front-shopping-mall_23-2147907236.jpg",
-            },
-            {
-              title: "Salons",
-              description: "Appointment management and service catalogs.",
-              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-smiling-woman-with-makeup-brushes_23-2148113369.jpg",
-            },
-            {
-              title: "Cafes",
-              description: "Local presence optimization and digital ordering.",
-              imageSrc: "http://img.b2bpic.net/free-photo/table-set-dinning-table_1339-6425.jpg",
-            },
-            {
-              title: "Co-working",
-              description: "Desks booking and space management platforms.",
-              imageSrc: "http://img.b2bpic.net/free-photo/asian-woman-with-headset-using-computer_482257-120429.jpg",
-            },
-          ]}
-          textAnimation="slide-up"
-        />
+        tag="Sectores"
+        title="Soluciones para cada sector"
+        description="Nos especializamos en soluciones web de alta conversión para diversas industrias."
+        items={[{"imageSrc":"http://img.b2bpic.net/free-photo/wine-glass_1203-2992.jpg","description":"Menús interactivos y sistemas de reserva que aumentan la rotación de mesas.","title":"Restaurantes"},{"title":"Clínicas","imageSrc":"http://img.b2bpic.net/free-photo/living-room-with-white-couch-coffee-table_188544-18668.jpg","description":"Portales de pacientes y reserva de citas segura para el sector salud."},{"title":"Gimnasios","imageSrc":"http://img.b2bpic.net/free-photo/still-life-gym-equipment_23-2148197730.jpg","description":"Plataformas de membresía y gestión de clases para centros deportivos."},{"title":"Comercios","imageSrc":"http://img.b2bpic.net/free-photo/turquoise-wooden-table-front-shopping-mall_23-2147907236.jpg","description":"Tiendas online optimizadas para maximizar tus ventas."},{"description":"Gestión de citas previas y catálogos de servicios exclusivos.","title":"Peluquerías y Estética","imageSrc":"http://img.b2bpic.net/free-photo/beautiful-smiling-woman-with-makeup-brushes_23-2148113369.jpg"},{"description":"Optimización de presencia local y pedidos digitales.","imageSrc":"http://img.b2bpic.net/free-photo/table-set-dinning-table_1339-6425.jpg","title":"Cafeterías"},{"description":"Reserva de puestos y gestión de espacios de trabajo compartidos.","imageSrc":"http://img.b2bpic.net/free-photo/asian-woman-with-headset-using-computer_482257-120429.jpg","title":"Co-working"}]}
+        textAnimation="slide-up"
+      />
         </SectionErrorBoundary>
       </div>
   );
