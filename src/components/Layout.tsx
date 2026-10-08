@@ -8,32 +8,32 @@ import { StyleProvider } from "@/components/ui/StyleProvider";
 export default function Layout() {
   const navItems = [
   {
-    "name": "Home",
+    "name": "Inicio",
     "href": "#hero"
   },
   {
-    "name": "Expertise",
+    "name": "Sectores",
     "href": "#expertise"
   },
   {
-    "name": "Testimonials",
-    "href": "#testimonials"
-  },
-  {
-    "name": "Contact",
-    "href": "#contact"
-  },
-  {
-    "name": "About",
+    "name": "Sobre Nosotros",
     "href": "#about"
   },
   {
-    "name": "Metrics",
+    "name": "Testimonios",
+    "href": "#testimonials"
+  },
+  {
+    "name": "Resultados",
     "href": "#metrics"
   },
   {
-    "name": "Faq",
+    "name": "Preguntas",
     "href": "#faq"
+  },
+  {
+    "name": "Contacto",
+    "href": "#contact"
   }
 ];
 
@@ -44,7 +44,7 @@ export default function Layout() {
         <NavbarFloating
       logo="Meridian"
       ctaButton={{
-        text: "Get Started",
+        text: "Contactar",
         href: "#contact",
       }}
      navItems={navItems} />
@@ -57,40 +57,48 @@ export default function Layout() {
       brand="Meridian Agency"
       columns={[
         {
-          title: "Company",
+          title: "Empresa",
           items: [
             {
-              label: "About",
+              label: "Sobre Nosotros",
               href: "#about",
             },
             {
-              label: "Careers",
-              href: "#",
+              label: "Sectores",
+              href: "#expertise",
             },
           ],
         },
         {
-          title: "Services",
+          title: "Servicios",
           items: [
             {
-              label: "Web Design",
+              label: "Restaurantes",
               href: "#expertise",
             },
             {
-              label: "Marketing",
-              href: "#",
+              label: "Clínicas",
+              href: "#expertise",
+            },
+            {
+              label: "Gimnasios",
+              href: "#expertise",
+            },
+            {
+              label: "Comercios",
+              href: "#expertise",
             },
           ],
         },
       ]}
-      copyright="© 2024 Meridian Agency. All rights reserved."
+      copyright="© 2024 Meridian Agency. Todos los derechos reservados."
       links={[
         {
-          label: "Privacy Policy",
+          label: "Política de Privacidad",
           href: "#",
         },
         {
-          label: "Terms of Service",
+          label: "Términos de Servicio",
           href: "#",
         },
       ]}
