@@ -10,13 +10,13 @@ export default function AboutSection(): React.JSX.Element {
     <div id="about" data-section="about">
         <SectionErrorBoundary name="about">
               <AboutTestimonial
-          tag="Our Philosophy"
-          quote="Digital presence is no longer optional; it's the foundation of modern commerce. We bridge the gap between your brand's vision and your customers' digital reality."
-          author="Elena Vance"
-          role="Founder, Meridian Agency"
-          imageSrc="http://img.b2bpic.net/free-photo/diverse-business-colleagues-with-digital-tablet-discussing-project_74855-1778.jpg"
-          textAnimation="fade"
-        />
+        tag="Nuestra Filosofía"
+        quote="La presencia digital ya no es opcional; es la base del comercio moderno. Unimos la visión de tu marca con la realidad digital de tus clientes."
+        author="Elena Vance"
+        role="Fundadora, Meridian Agency"
+        imageSrc="http://img.b2bpic.net/free-photo/diverse-business-colleagues-with-digital-tablet-discussing-project_74855-1778.jpg"
+        textAnimation="fade"
+      />
         </SectionErrorBoundary>
       </div>
   );

@@ -10,43 +10,12 @@ export default function TestimonialsSection(): React.JSX.Element {
     <div id="testimonials" data-section="testimonials">
         <SectionErrorBoundary name="testimonials">
               <TestimonialColumnMarqueeCards
-          tag="Social Proof"
-          title="Client Success"
-          description="Don't take our word for it."
-          testimonials={[
-            {
-              name: "David M.",
-              role: "Restaurant Owner",
-              quote: "Meridian boosted our table bookings by 40% in just two months.",
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-businessman-with-crossed-arms_23-2147955274.jpg",
-            },
-            {
-              name: "Sarah P.",
-              role: "Clinic Director",
-              quote: "Seamless patient portal. Best investment we've made this year.",
-              imageSrc: "http://img.b2bpic.net/free-photo/smiling-beautiful-corporate-woman-beige-suit-standing-street-city-with-wireless-headphones_1258-194021.jpg",
-            },
-            {
-              name: "Marcus L.",
-              role: "Gym Founder",
-              quote: "Modern design, easy to use. Our members love the new app.",
-              imageSrc: "http://img.b2bpic.net/free-photo/young-man-business-worker-using-vr-glasses-working-office_839833-10645.jpg",
-            },
-            {
-              name: "Elena R.",
-              role: "Boutique Owner",
-              quote: "Conversion rates have doubled since we launched with Meridian.",
-              imageSrc: "http://img.b2bpic.net/free-photo/smiling-beautiful-middle-aged-business-woman_1262-3085.jpg",
-            },
-            {
-              name: "Lucas F.",
-              role: "Cafe Owner",
-              quote: "The local presence they built has driven more foot traffic.",
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg",
-            },
-          ]}
-          textAnimation="fade-blur"
-        />
+        tag="Prueba Social"
+        title="Casos de Éxito"
+        description="Nuestros clientes respaldan los resultados obtenidos."
+        testimonials={[{"imageSrc":"http://img.b2bpic.net/free-photo/portrait-happy-businessman-with-crossed-arms_23-2147955274.jpg","quote":"Meridian aumentó nuestras reservas de mesas un 40% en solo dos meses.","role":"Propietario de Restaurante","name":"David M."},{"quote":"Un portal de pacientes impecables. La mejor inversión que hemos hecho este año.","name":"Sara P.","imageSrc":"http://img.b2bpic.net/free-photo/smiling-beautiful-corporate-woman-beige-suit-standing-street-city-with-wireless-headphones_1258-194021.jpg","role":"Directora de Clínica"},{"quote":"Diseño moderno y fácil de usar. A nuestros socios les encanta la nueva app.","name":"Marcos L.","imageSrc":"http://img.b2bpic.net/free-photo/young-man-business-worker-using-vr-glasses-working-office_839833-10645.jpg","role":"Fundador de Gimnasio"},{"imageSrc":"http://img.b2bpic.net/free-photo/smiling-beautiful-middle-aged-business-woman_1262-3085.jpg","role":"Propietaria de Boutique","name":"Elena R.","quote":"Las tasas de conversión se han duplicado desde que lanzamos con Meridian."},{"name":"Lucas F.","quote":"La presencia local que construyeron ha atraído a muchos más clientes físicos.","imageSrc":"http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg","role":"Propietario de Cafetería"}]}
+        textAnimation="fade-blur"
+      />
         </SectionErrorBoundary>
       </div>
   );
