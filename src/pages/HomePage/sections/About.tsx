@@ -14,7 +14,7 @@ export default function AboutSection(): React.JSX.Element {
         quote="La presencia digital ya no es opcional; es la base del comercio moderno. Unimos la visión de tu marca con la realidad digital de tus clientes."
         author="Alex HP
 "
-        role="CEO, Meridian Agency"
+        role="CEO, Monix Agency"
         imageSrc="http://img.b2bpic.net/free-photo/diverse-business-colleagues-with-digital-tablet-discussing-project_74855-1778.jpg"
         textAnimation="fade"
       />

@@ -42,7 +42,7 @@ export default function Layout() {
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
         <NavbarFloating
-      logo="Meridian"
+      logo="Monix"
       ctaButton={{
         text: "Contactar",
         href: "#contact",
@@ -54,7 +54,7 @@ export default function Layout() {
       </main>
       <SectionErrorBoundary name="footer">
         <FooterSimple
-      brand="Meridian Agency"
+      brand="Monix Agency"
       columns={[
         {
           title: "Empresa",
@@ -91,7 +91,7 @@ export default function Layout() {
           ],
         },
       ]}
-      copyright="© 2024 Meridian Agency. Todos los derechos reservados."
+      copyright="© 2024 Monix Agency. Todos los derechos reservados."
       links={[
         {
           label: "Política de Privacidad",

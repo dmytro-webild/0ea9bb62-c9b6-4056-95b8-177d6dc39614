@@ -10,7 +10,7 @@ export default function HeroSection(): React.JSX.Element {
     <div id="hero" data-section="hero">
         <SectionErrorBoundary name="hero">
               <HeroBrand
-        brand="Meridian Agency"
+        brand="Monix Agency"
         description="Diseñamos y desarrollamos páginas web de alto impacto para restaurantes, clínicas, gimnasios y comercios. Potenciamos la presencia digital y la conversión de tu negocio."
         primaryButton={{"text":"Empezar Proyecto","href":"#contact"}}
         secondaryButton={{"href":"#expertise","text":"Ver Sectores"}}
