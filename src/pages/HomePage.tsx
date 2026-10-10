@@ -1,34 +1,34 @@
 // AUTO-GENERATED shell by per-section-migrate.
-// Sectoresectoresection bodies live in the sibling sections/ folder (one file per section).
+// Sectoresectoresectoresection bodies live in the sibling sections/ folder (one file per section).
 // Edit those section files directly. Non-block content (wrappers,
 // non-inlinable sections) is preserved inline; extracted section blocks
 // become component refs.
 
 import React from 'react';
-import HeroSectoresectoresection from './HomePage/sections/Hero';
-import AboutSectoresectoresection from './HomePage/sections/About';
-import ExpertiseSectoresectoresection from './HomePage/sections/Expertise';
-import TestimonialsSectoresectoresection from './HomePage/sections/Testimonials';
-import MetricsSectoresectoresection from './HomePage/sections/Metrics';
-import FaqSectoresectoresection from './HomePage/sections/Faq';
-import ContactSectoresectoresection from './HomePage/sections/Contact';
+import HeroSectoresectoresectoresection from './HomePage/sections/Hero';
+import AboutSectoresectoresectoresection from './HomePage/sections/About';
+import ExpertiseSectoresectoresectoresection from './HomePage/sections/Expertise';
+import TestimonialsSectoresectoresectoresection from './HomePage/sections/Testimonials';
+import MetricsSectoresectoresectoresection from './HomePage/sections/Metrics';
+import FaqSectoresectoresectoresection from './HomePage/sections/Faq';
+import ContactSectoresectoresectoresection from './HomePage/sections/Contact';
 
-export default function HomePage(): React.JSectoresectoresX.Element {
+export default function HomePage(): React.JSectoresectoresectoresX.Element {
   return (
 <>
-  <HeroSectoresectoresection />
+  <HeroSectoresectoresectoresection />
 
-  <AboutSectoresectoresection />
+  <AboutSectoresectoresectoresection />
 
-  <ExpertiseSectoresectoresection />
+  <ExpertiseSectoresectoresectoresection />
 
-  <TestimonialsSectoresectoresection />
+  <TestimonialsSectoresectoresectoresection />
 
-  <MetricsSectoresectoresection />
+  <MetricsSectoresectoresectoresection />
 
-  <FaqSectoresectoresection />
+  <FaqSectoresectoresectoresection />
 
-  <ContactSectoresectoresection />
+  <ContactSectoresectoresectoresection />
     </>
   );
 }
