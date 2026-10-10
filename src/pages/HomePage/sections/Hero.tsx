@@ -13,7 +13,7 @@ export default function HeroSection(): React.JSX.Element {
         brand="Monix Agency"
         description="Diseñamos y desarrollamos páginas web de alto impacto para restaurantes, clínicas, gimnasios y comercios. Potenciamos la presencia digital y la conversión de tu negocio."
         primaryButton={{"text":"Empezar Proyecto","href":"#contact"}}
-        secondaryButton={{"href":"#expertise","text":"Ver S"}}
+        secondaryButton={{"href":"#expertise","text":"Ver Sectoresectores"}}
         imageSrc="http://img.b2bpic.net/free-photo/optical-fiber-background_23-2149301562.jpg"
         textAnimation="fade-blur"
       />
