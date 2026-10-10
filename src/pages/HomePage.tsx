@@ -1,34 +1,34 @@
 // AUTO-GENERATED shell by per-section-migrate.
-// Section bodies live in the sibling sections/ folder (one file per section).
+// Sectoresection bodies live in the sibling sections/ folder (one file per section).
 // Edit those section files directly. Non-block content (wrappers,
 // non-inlinable sections) is preserved inline; extracted section blocks
 // become component refs.
 
 import React from 'react';
-import HeroSection from './HomePage/sections/Hero';
-import AboutSection from './HomePage/sections/About';
-import ExpertiseSection from './HomePage/sections/Expertise';
-import TestimonialsSection from './HomePage/sections/Testimonials';
-import MetricsSection from './HomePage/sections/Metrics';
-import FaqSection from './HomePage/sections/Faq';
-import ContactSection from './HomePage/sections/Contact';
+import HeroSectoresection from './HomePage/sections/Hero';
+import AboutSectoresection from './HomePage/sections/About';
+import ExpertiseSectoresection from './HomePage/sections/Expertise';
+import TestimonialsSectoresection from './HomePage/sections/Testimonials';
+import MetricsSectoresection from './HomePage/sections/Metrics';
+import FaqSectoresection from './HomePage/sections/Faq';
+import ContactSectoresection from './HomePage/sections/Contact';
 
-export default function HomePage(): React.JSX.Element {
+export default function HomePage(): React.JSectoresX.Element {
   return (
 <>
-  <HeroSection />
+  <HeroSectoresection />
 
-  <AboutSection />
+  <AboutSectoresection />
 
-  <ExpertiseSection />
+  <ExpertiseSectoresection />
 
-  <TestimonialsSection />
+  <TestimonialsSectoresection />
 
-  <MetricsSection />
+  <MetricsSectoresection />
 
-  <FaqSection />
+  <FaqSectoresection />
 
-  <ContactSection />
+  <ContactSectoresection />
     </>
   );
 }
