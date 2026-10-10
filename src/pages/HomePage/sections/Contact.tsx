@@ -10,15 +10,15 @@ export default function ContactSection(): React.JSX.Element {
     <div id="contact" data-section="contact">
         <SectionErrorBoundary name="contact">
               <ContactCta
-          tag="Get in touch"
-          text="Ready to scale your digital presence? Let's build something great together."
+          tag="Contacto"
+          text="¿Listo para potenciar tu presencia digital? Construyamos algo grande juntos."
           primaryButton={{
-            text: "Schedule Consultation",
+            text: "Agendar Consulta",
             href: "#contact",
           }}
           secondaryButton={{
-            text: "Email Us",
-            href: "mailto:hello@meridian.agency",
+            text: "Enviar Email",
+            href: "mailto:hola@monix.agency",
           }}
           textAnimation="fade-blur"
         />

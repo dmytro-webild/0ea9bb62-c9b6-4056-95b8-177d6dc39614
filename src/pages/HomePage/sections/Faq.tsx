@@ -10,29 +10,29 @@ export default function FaqSection(): React.JSX.Element {
     <div id="faq" data-section="faq">
         <SectionErrorBoundary name="faq">
               <FaqTabbedAccordion
-          tag="Knowledge Hub"
-          title="Frequently asked questions"
-          description="Everything you need to know about working with us."
+          tag="Preguntas Frecuentes"
+          title="Resolvemos tus dudas"
+          description="Todo lo que necesitas saber sobre cómo trabajamos."
           categories={[
             {
               name: "General",
               items: [
                 {
-                  question: "How long does a typical project take?",
-                  answer: "Most web builds take between 4-8 weeks depending on complexity.",
+                  question: "¿Cuánto tiempo se tarda en desarrollar una web?",
+                  answer: "La mayoría de los proyectos se completan en 2 a 4 semanas según su complejidad.",
                 },
                 {
-                  question: "Do you offer maintenance?",
-                  answer: "Yes, we provide ongoing maintenance and security support packages.",
+                  question: "¿Ofrecen mantenimiento continuo?",
+                  answer: "Sí, disponemos de planes de mantenimiento, seguridad y optimización periódica.",
                 },
               ],
             },
             {
-              name: "Process",
+              name: "Proceso",
               items: [
                 {
-                  question: "How do we get started?",
-                  answer: "Simply fill out our contact form and we'll schedule a discovery call.",
+                  question: "¿Cómo empezamos a trabajar?",
+                  answer: "Solo tienes que rellenar el formulario de contacto y agendaremos una llamada inicial.",
                 },
               ],
             },
